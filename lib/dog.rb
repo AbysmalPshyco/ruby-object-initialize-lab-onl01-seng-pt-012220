@@ -13,6 +13,6 @@ attr_accessor :breed
   end
 end
 
-pug = Dog.new 
+pug = Dog.new(name,breed)
 
 pug.name

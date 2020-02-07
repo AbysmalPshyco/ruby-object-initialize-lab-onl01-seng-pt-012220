@@ -8,3 +8,7 @@ attr_accessor :name
 attr_accessor :breed 
 
 end
+
+pug= Dog.new 
+
+pug.breed="Pug"

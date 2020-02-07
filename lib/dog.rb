@@ -9,6 +9,7 @@ attr_accessor :breed
  if @breed == "Pug"
   puts "Pug"
  else
-   
+   puts "Mutt"
+  end
 end
 

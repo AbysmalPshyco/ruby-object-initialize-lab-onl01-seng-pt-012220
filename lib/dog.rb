@@ -13,6 +13,6 @@ attr_accessor :breed
   end
 end
 
-pug = Dog.new(name,breed)
+fido = Dog.new("Fido","Pug")
 
 pug.name

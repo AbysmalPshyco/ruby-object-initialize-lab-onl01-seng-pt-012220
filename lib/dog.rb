@@ -5,4 +5,4 @@ end
 
 attr_accessor :name 
 
-end 
+attr_accessor :breed 

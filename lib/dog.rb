@@ -1,3 +1,4 @@
 class Dog 
   def initialize(name)
-    @nane = name 
+    @name=name
+end

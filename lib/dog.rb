@@ -10,7 +10,5 @@ def initialize(breed)
 end
 attr_accessor :breed
 
-fido=Dog.new("Fido","Pug")
-
-puts fido.breed 
+end
 

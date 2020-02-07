@@ -6,6 +6,9 @@ end
 attr_accessor :name 
 
 attr_accessor :breed 
-
+ if @breed == "Pug"
+  puts "Pug"
+ else
+   
 end
 

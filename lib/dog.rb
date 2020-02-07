@@ -1,17 +1,14 @@
 class Dog 
-  def initialize(name,breed)
+  def initialize(name)
     @name=name
 end
 
 attr_accessor :name 
 
-attr_accessor :breed 
-# if @breed == "Pug"
-#   puts "Pug"
-# else
-#   puts "Mutt"
-#   end
+def initialize(breed)
+  @breed=breed
 end
+attr_accessor :breed
 
 fido=Dog.new("Fido","Pug")
 

@@ -15,4 +15,3 @@ end
 
 fido = Dog.new("Fido","Pug")
 
-pug.name
